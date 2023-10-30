@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Gallery</title>
+    <link rel="icon" href="https://logodix.com/logo/1723258.jpg" style="border-radius:70px;">
+    <link rel="stylesheet" href="giva.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<style>
+    .example3 {
+     height: 50px;	
+     overflow: hidden;
+     position: relative;
+    }
+    .example3 h6 {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateY(100%);
+     -webkit-transform:translateY(100%);	
+     transform:translateY(100%);
+     /* Apply animation to this element */	
+     -moz-animation: example3 1s ease infinite;
+     -webkit-animation: example3 1s ease infinite;
+     animation: example3 3s ease infinite;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes example3 {
+     0%   { -moz-transform: translateY(100%); }
+     40%   { -moz-transform: translateY(0%); }
+     60%   { -moz-transform: translateY(0%); }
+     100% { -moz-transform: translateY(-100%); }
+    }
+    @-webkit-keyframes example3 {
+     0%   { -webkit-transform: translateY(100%); }
+     40%   { -webkit-transform: translateY(0%); }
+     60%   { -webkit-transform: translateY(0%); }
+     100% { -webkit-transform: translateY(-100%); }
+    }
+    @keyframes example3 {
+     0%   { 
+     -moz-transform: translateY(100%); /* Firefox bug fix */
+     -webkit-transform: translateY(100%); /* Firefox bug fix */
+     transform: translateY(100%); 		
+     }
+     40%   { 
+     -moz-transform: translateY(0%); /* Firefox bug fix */
+     -webkit-transform: translateY(0%); /* Firefox bug fix */
+     transform: translateY(0%); 		
+     }
+     60%   { 
+     -moz-transform: translateX(0%); /* Firefox bug fix */
+     -webkit-transform: translateX(0%); /* Firefox bug fix */
+     transform: translateY(0%); 		
+     }
+     100% { 
+     -moz-transform: translateY(-100%); /* Firefox bug fix */
+     -webkit-transform: translateY(-100%); /* Firefox bug fix */
+     transform: translateY(-100%); 
+     }
+    }
+</style>
+<body>
+  <div class="container-fluid">
+  <div class=" fixed-top" style="margin-bottom: 3%;">
+    <div  class="example3 " style=" background-color: lightpink; padding: 0.5% 0.5%;">
+        <h6>Flat50%: OFF on making charges of Gold Jwellery <br/>Free Gift : Free gift worth 1499 on order over 2199 <br/> Buy 1 get 2nd at 25% OFF.code: COMBO25</h6>
+        </div>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="./giva.html" style="text-decoration: none;"><p class="giva">Silver Gallery </p></a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="margin-left: 10%;">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  ShopAll
+                </a>               
+                    
+                      <ul class="dropdown-menu" style="width: 50vw;">
+                        <div class="d-flex flex-row">
+                        <div>
+                        <li><h5><a class="dropdown-item" href="#">Shop By category</a> <hr></h5></li>
+                        <li><a class="dropdown-item" href="./Earrings.html">Earings</a></li>
+                        <li><a class="dropdown-item" href="./pendents.html">Pendents</a></li>
+                        <li><a class="dropdown-item" href="./Ringsilver.html">Rings</a></li>
+                        <li><a class="dropdown-item" href="./pendents.html">Necklace&Pendents</a></li>
+                        <li><a class="dropdown-item" href="./braclets.html">Bracelets</a></li>
+                        <li><a class="dropdown-item" href="#">Anklets</a></li>
+                        <li><a class="dropdown-item" href="#">Jewellery Sets</a></li>
+                        <li><a class="dropdown-item" href="#">Personalised</a></li>
+                        <li><a class="dropdown-item" href="#">Chains</a></li>
+                        <li><a class="dropdown-item" href="#">Toe Rings</a></li>
+                        <li><a class="dropdown-item" href="#">Nose Pins &Rings</a></li>
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                      </div>
+                      <div>
+                        <li><h5><a class="dropdown-item" href="#">Shop By Metal</a> <hr></h5></li>
+                        <li><a class="dropdown-item" href="#">14k Gold</a></li>
+                        <li><a class="dropdown-item">18k Gold</a></li>
+                        <li><a class="dropdown-item" href="#">925  Silver</a></li>
+                      </div>
+                      <div>
+                        <li><h5><a class="dropdown-item" href="#">Shop By Color</a> <hr></h5></li>
+                        <li><a class="dropdown-item" href="#">Gold Plated</a></li>
+                        <li><a class="dropdown-item">Rose Plated</a></li>
+                        <li><a class="dropdown-item" href="#">Silver Plated</a></li>
+                        <li><a class="dropdown-item" href="#">Oxidized Silver</a></li>
+                      </div>
+                      <div>
+                        <li><h5><a class="dropdown-item" href="#">Shop By Style</a> <hr></h5></li>
+                        <li><a class="dropdown-item" href="#">Everday Staples</a></li>
+                        <li><a class="dropdown-item">Office minimals</a></li>
+                        <li><a class="dropdown-item" href="#">Party Peices</a></li>
+                        <li><a class="dropdown-item" href="#">Wedding wear</a></li>
+                        <li><a class="dropdown-item" href="#">Mens</a></li>
+                      </div>
+                    </div>
+                      </ul>
+   
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./braclets.html"  style="color: black;" target="_self">Bracelets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Earrings.html" style="color: black;" target="_self">Earings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="./pendents.html" style="color: black;" target="_self">Pendents</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="Ringsilver.html" style="color: black;" target="_self">Rings</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  Gold Jewellery
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Shop All</a></li>
+                  <li><a class="dropdown-item" href="./Earrings.html">Earings</a></li>
+                  <li><a class="dropdown-item" href="./Ringsilver.html">Pendents</a></li>
+                  <li><a class="dropdown-item" href="./Ringsilver.html">Rings</a></li>
+                  <li><a class="dropdown-item" href="./braclets.html">Bracelets</a></li>
+                  <li><a class="dropdown-item" href="#">Personalised</a></li>
+                  <li><a class="dropdown-item" href="#">Chains</a></li>
+                  <li><a class="dropdown-item" href="#">Nose Pins</a></li>
+                  <li><a class="dropdown-item" href="#">Gifts of Gold</a></li>
+                  <li><a class="dropdown-item" href="#">Gold Jewellery under 10000</a></li>
+                  
+                </ul>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link"  style="color: black;" target="_self">Just Arrived</a>
+            </li>
+           <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Track Order</a></li>
+                  <li><a class="dropdown-item" href="#">GIVA Gift store</a></li>
+                  <li><a class="dropdown-item">Store Locator </a></li>
+                  <li><a class="dropdown-item" href="#">Media Mentons</a></li>
+                  <li><a class="dropdown-item" href="#">Coporate Partnership</a></li>
+                  <li><a class="dropdown-item" href="#">Jwellery Care</a></li>
+                  <li><a class="dropdown-item" href="#">GIVA Cares</a></li>
+                  <li><a class="dropdown-item" href="#">Join Us</a></li>
+                  <li><a class="dropdown-item" href="#">GIVA Blogs</a></li>
+                  <li><a class="dropdown-item" href="#">Support & FAQ</a></li>
+                  
+                </ul>
+              </li>
+          </ul>
+        </div>
+        <input type="text" class="papa" placeholder="search"/>
+        <a href="" style="color: black;"><i class="bi bi-search" style="font-size: 20px;"></i></a>
+        <a href="./login .html"> <i class="bi bi-person" style="color: black; font-size: 20px;"></i></a>
+        <a href="" data-toggle="modal" data-target="#exampleModal" style="color: black;"><i class="bi bi-heart" style="font-size: 20px;"> </i></a>
+        <a href="./cart.html" style="color: black;"> <i class="bi bi-minecart-loaded" style="font-size: 20px;"></i></a>  
+      </nav> 
+    </div>  
+    <!-- image -->
+    <div  style="margin-top:10%;">
+      <img src="Ringsimg.png" alt="" width="100%" height="300px">
+    </div><hr>
+    <div class="container -fluid" style="margin-left:5%; margin-top:1%; ">
+        <div style="display: flex;">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:1px solid gray; margin-left:5%; height:30px; width:auto; border-radius:-2%;">
+              STONE
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <label class="dropdown-item"><input type="checkbox" >Colored</label>
+                <label class="dropdown-item"><input type="checkbox" >Colored Stone</label>
+                <label class="dropdown-item"><input type="checkbox">Colored Zircon</label>
+                <label class="dropdown-item"><input type="checkbox">Turquoise</label>
+                <label class="dropdown-item"><input type="checkbox" >Pearl</label>
+                <label class="dropdown-item"><input type="checkbox">Zircon</label>
+                <label class="dropdown-item"><input type="checkbox">None</label>
+            </div>
+          </div>
+          <div class="btn-group" style="margin-left: 1%;">
+            <button type="button" class="btn  btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border: 1px solid gray;  margin-left: 5%;height:30px; width:auto; border-radius:-2%;">
+            COLOR
+            </button>
+            <div class="dropdown-menu">
+                <label class="dropdown-item"><input type="checkbox">Gold</label>
+                <label class="dropdown-item"><input type="checkbox">Rose Gold</label>
+                <label class="dropdown-item"><input type="checkbox">Oxdized Silver</label>
+                <label class="dropdown-item"><input type="checkbox">silver</label>
+            </div>
+          </div>
+        <div class="btn-group" style="margin-left: 1%;">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="border: 1px solid gray;  margin-left: 5%;height:30px; width:auto; border-radius:-2%;">
+            STYLE
+            </button>
+            <div class="dropdown-menu">
+                <label class="dropdown-item"><input type="checkbox">Everyday</label>
+                <label class="dropdown-item"><input type="checkbox">Office</label>
+                <label class="dropdown-item"><input type="checkbox">Party</label>
+                <label class="dropdown-item"><input type="checkbox">Traditional</label>
+                <label class="dropdown-item"><input type="checkbox">Wedding</label>
+             </div>
+        </div>
+        <div class="btn-group" style="margin-left: 1%;">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="border: 1px solid gray;  margin-left: 5%;height:30px; width:auto; border-radius:-2%;">
+          SUB CATEGORY
+          </button>
+          <div class="dropdown-menu">
+              <label class="dropdown-item"><input type="checkbox">Bands</label>
+              <label class="dropdown-item"><input type="checkbox">Bridal</label>
+              <label class="dropdown-item"><input type="checkbox">Bypass</label>
+              <label class="dropdown-item"><input type="checkbox">Chains</label>
+              <label class="dropdown-item"><input type="checkbox">Classics</label>
+              <label class="dropdown-item"><input type="checkbox">Cocktails</label>
+              <label class="dropdown-item"><input type="checkbox">Cuople</label>
+              <label class="dropdown-item"><input type="checkbox">Cuoples</label>
+              <label class="dropdown-item"><input type="checkbox">Fashion</label>
+              <label class="dropdown-item"><input type="checkbox">Layered</label>
+            </div>
+      </div>
+    <div class="btn-group" style="margin-left:1%;">
+        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="border: 1px solid gray;  margin-left:6%;height:30px; width:auto; border-radius:-2%;">
+        METAL</button>
+        <div class="dropdown-menu">
+            <label class="dropdown-item"><input type="checkbox">925 Silver</label>
+         </div>
+    </div>
+              
+          </div>
+      </div><hr>
+      <div class="cards-images" style="display: flex; margin-top: 3%; margin-bottom: 4%;">
+        <div class="card " style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R042_1_b86307d2-d002-4106-9138-d70d16a0ca55_540x.jpg?v=1680071613" class="card-img-top" alt="..." height="270px">
+            <div class="card-body" style="margin-top: -8px;">
+                <p> Silver Classic Solitaire Ring <br>
+                    ₹2,999.00 &nbsp;; 
+                    <s>₹5,999.00</s>
+               </p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R0160_1.1_540x.jpg?v=1646213005" class="card-img-top" alt="... " height="270px">
+            <div class="card-body">
+                <p>Golden Eternity Ring
+                    <br>₹1,099.00 &nbsp;; <s>₹2,199.00</s>
+                </p>
+        
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R0633_1_540x.jpg?v=1654754468" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Silver Passionate Love Ring
+                    <br>₹1,699.00 &nbsp; <s>₹3,399.00</s></p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R071_1_90427aa0-122a-4ffc-9bbf-c44455b18fca_540x.jpg?v=1651127563" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Aushka Sharma Silver Studed Rose Ring
+                    <br>₹1,999.00 &nbsp;<s>3,999.00</s>
+                </p>
+            </div>
+          </div>
+          </div>
+          <div class="cards-images" style="display: flex; margin-bottom: 4%;">
+          <div class="card"  style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/files/R01232_1-min_540x.jpg?v=1686834979" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Golden Echoing Melody Ring
+               <br> ₹1,699.00 &nbsp;
+                    <s>₹3,399.00</s>
+                </p>
+               
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/files/R0646_1_11462677-fafe-48f5-b19a-d53d1aaaae9d_540x.jpg?v=1693462420" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Silver Classic Ring Band For Him
+                    <br>₹1,499.00 &nbsp;<s>₹2,999.00</s>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R063_1_2_540x.jpg?v=1653370618" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Anushaka Sharma Silver Minimal Cuople Ring
+                    <br>₹2,299.00 &nbsp;<s>₹4,599.00</s></p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer; ">
+            <img src="https://www.giva.co/cdn/shop/products/R063_1_2_500x500.jpg?v=1653370618" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Anushaka Sharma Silver Vintage Cuople Band Ring
+                    <br>₹2,499.00 &nbsp;<s>₹4,999.00</s>
+                </p>
+            </div>
+          </div>
+          </div>
+          <div class="cards-images" style="display: flex; margin-bottom: 4%;">
+          <div class="card"  style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R0126_1_540x.jpg?v=1628856495" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Golden Star Constellation Ring
+                    <br>₹999.00 &nbsp;<s>₹1,999.00</s>
+                </p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://www.giva.co/cdn/shop/products/R049_1_500x500.jpg?v=1679392142" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Silver Zircon Layered Ring
+                    <br>₹1,499.00 &nbsp;<s>₹2,999.00</s>
+                </p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://cdn.shopify.com/s/files/1/0061/8378/0442/products/R049_1_540x.jpg?v=1679994973" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Aushka Sharma Silver Zircon Embrace Ring
+                    <br>₹1,599.00 &nbsp;<s>₹3,199.00</s>
+                </p>
+            </div>
+          </div>
+          <div class="card" style="cursor: pointer;">
+            <img src="https://www.giva.co/cdn/shop/files/R030_1_500x500.jpg?v=1685017471" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+                <p>Rose Gold Wreath Ring
+                    <br>₹1,499.00 &nbsp;
+                    <s>₹2,799.00</s>
+                </p>
+            </div>
+          </div>
+    </div>
+    <div class="container-fluid">
+      <div  style="margin-left:1%;">
+        <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent" aria-expanded="false" aria-controls="paragraphContent">
+            THE HEALING TOUCH OF GOLD RINGS: A REFLECTION OF WEALTH AND BEAUTY
+
+        </p>
+        <div class="collapse " id="paragraphContent" style="font-size: small;">
+            <p>
+                Gold, the precious metal with profound healing properties, serves as an emblem of prosperity and opulence. At GIVA, our gold rings capture the essence of timeless beauty and are meticulously designed to enhance your every gesture. Imagine yourself adorned with stunning 14 & 18-carat gold rings, radiating an aura of confidence and grace. With GIVA rings, you can revel in the elegance of gold while embracing its enchanting energy.</p>
+         </div><hr>
+</div>
+<div  style="margin-left:1%;">
+    <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent1" aria-expanded="false" aria-controls="paragraphContent1">
+        SILVER RINGS FOR WOMEN: THE PUREST EXPRESSION OF ELEGANCE
+
+    </p>
+    <div class="collapse " id="paragraphContent1" style="font-size: small;">
+        <p>
+            At GIVA, we believe in offering only the finest quality to our beloved customers. That's why all our silver rings are crafted with 925 sterling silver, the epitome of purity. Immerse yourself in the delicate beauty of our silver rings, perfect for any occasion. From dainty bands to intricately designed statement pieces, GIVA has a wide range of silver rings for women to suit your unique style. With a touch of silver, let your inner radiance shine and capture the hearts of those around you.</p>
+    </div><hr>
+<div  style="margin-left:1%;">
+    <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent2" aria-expanded="false" aria-controls="paragraphContent2">
+    DIAMOND RINGS: A WOMAN'S BEST FRIEND
+    </p>
+    <div class="collapse " id="paragraphContent2" style="font-size: small;">
+        <p>They say diamonds are a girl's best friend, and at SILVER GALLERY, we wholeheartedly agree. Our diamond rings are a celebration of eternal love and beauty. Picture yourself with a dazzling solitaire diamond ring, capturing the light with every movement, mesmerising all who gaze upon it. Our collection of diamond rings boast a variety of designs that embody the essence of elegance and grace, ensuring that your love story shines brighter than ever before.</p>
+    </div>
+  </div><hr>
+  <div  style="margin-left:1%;">
+    <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent3" aria-expanded="false" aria-controls="paragraphContent3">
+     PEARL RINGS: THE BIRTHSTONE OF JUNE, AN EMBLEM OF FORTUNE
+    </p>
+    <div class="collapse " id="paragraphContent3" style="font-size: small;">
+<p>For those born in June, pearls hold a special place in their hearts. At SILVER GALLERY, we honour this significance by offering an exquisite collection of pearl rings. Pearls are believed to symbolise good fortune and have long been associated with enhancing the health of a marriage. Let the iridescent beauty of a pearl ring grace your finger and bring an abundance of blessings into your life. It’s your time to discover the captivating allure of pearl rings at Silver Gallery.</p>
+    </div>
+  </div><hr>
+  <div  style="margin-left:1%;">
+    <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent4" aria-expanded="false" aria-controls="paragraphContent4">
+        ZIRCON RINGS: A HARMONIOUS BALANCE FOR MIND, BODY, AND SOUL   </p>
+    <div class="collapse " id="paragraphContent4" style="font-size: small;">
+    <p>Find your inner equilibrium with our collection of zircon rings. Zircon is believed to bring spiritual, physical, and mental balance to its wearer. With its vibrant hues and dazzling sparkle, zircon adds a touch of celestial magic to any ensemble. Discover the harmonious synergy of zircon rings at SILVER GALLERY, and let their enchanting beauty elevate your spirit and illuminate your journey.</p>
+    </div>
+  </div><hr>
+  <div  style="margin-left:1%;">
+    <p class="mb-3 dropdown-toggle" data-toggle="collapse" href="#paragraphContent5" aria-expanded="false" aria-controls="paragraphContent5">
+        ROSE GOLD RINGS: THE TIMELESS FUSION OF LOVE AND LUXUR   </p>
+    <div class="collapse " id="paragraphContent5" style="font-size: small;">
+    <p>Blending the elegance of gold with the warmth of copper, rose gold rings offer a distinctive and romantic allure. At GIVA, we bring you an exquisite collection of rose gold rings that are resistant to tarnishing, ensuring their everlasting beauty. Picture yourself with a radiant rose gold ring, capturing the essence of love and sophistication. Let SILVER GALLERY Rings be your trusted companion on your journey to eternal romance and everlasting elegance.</p>
+    </div>
+  </div><hr>
+
+</div>
+
+<div class="col-12 col-lg container-fluid" >
+  <footer>
+      <div class="col-12 col-lg" >
+          <p class="footer-head">Know More about SILVER GALLERY</p>
+      </div>
+          <div class="container-part1 col-12 col-lg">
+              <p style="font-size: 80%; margin-left:2%;">Quick links</p><br>
+              <p style="font-size: 80%;margin-left: 20%;">Newsletter</p>
+              <p style="font-size: 80%; margin-left: 40%;">Contact Us</p>
+          </div>
+              <div class="container-part1-1 col-12 col-lg">
+                  <div style="margin-left: 5%;">
+                  <a>Support</a><br>
+                  <a>Store Locator</a><br>
+                  <a>Offers & Promotions</a><br>
+                  <a>International Shipping</a><br>
+                  <a>Careers</a><br>
+                  <a>Jwellery</a><br>
+                  <a>Blogs</a><br>
+                  <a>Reviews</a><br>
+                  <a>Privacy Policy</a><br>
+                  <a>Shipping & Returns</a><br>
+                  <a>International Shipping FAQs</a><br>
+                  <a>Terms of Service</a><br>
+                  </div>
+                  <div class="col-12 col-lg">
+                      <form >
+                          <input type="email" placeholder="Email Address" style="height: 40px; width: 60%;">
+                          <button style="height: 42px;width: 15%; margin-left: -5px; background-color:darkgrey;">Subscribe</button>
+                      </form>   
+                  </div>
+                  <div class="col-12 col-lg">
+                      <p style="margin-left: -120px;">BIS : HM/C - 6290031216<br>
+                          For any suggestions, queries or complaints <br>
+                          please contact us: <br>
+                          Indiejewel Fashions Private Limited <br>
+                          Third Floor, Magnum Vista, Raghuvanahalli, <br>
+                           Bangalore 560062 <br>
+                          -  care@giva.co <br>
+                          -  7829558887 (10 AM to 6:30 PM) <br>
+                      </p>
+                      <button  class="footer-button"> 
+                          <span> <i class="bi bi-google-play" style="font-size: 25px; margin-left: -110px;"></i>
+                              <p style="margin-top: -40px; margin-left: -33px; font-size:80% ;">Get it on</p>
+                              <h5 style="margin-top: -20px; margin-left: 20%;">Google Play</h5>
+                          </span>
+                      </button><br><br>
+                      <button class="footer-button"> 
+                          <span> <i class="bi bi-apple" style="font-size: 25px; margin-left: -110px;"></i>
+                              <p style="margin-top: -40px; margin-left: 9px; font-size: 70%;">Download it on the</p>
+                              <h5 style="margin-top: -20px; margin-left: 20%;">Apple Store</h5>
+                          </span>
+                      </button><br>  
+                      
+                      
+                  </div>
+  
+              </div>
+  </footer> 
+</div>
+
+ <!-- Modal -->
+ <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">My Wishlist</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>Love It? Add To My Wishlist</h1>
+        <p>My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet.
+           You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark">Continue Shopping</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    </div>
+</body>
+</html>

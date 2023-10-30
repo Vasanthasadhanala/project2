@@ -1,0 +1,31 @@
+.nav-bar{
+   background-color:lightpink;
+   padding: 0.2% 0.2%;
+   text-align: center;
+}
+/* p{
+
+animation-name: animi;
+animation-duration: 2s;
+animation-iteration-count: 10;
+}
+@keyframes animi{
+0% {
+    background-color: lightpink;
+}
+25%{
+    background-color: red;
+}
+40%{
+    background-color: yellow;
+}
+50%{
+    background-color: blue;
+}
+75%{
+    background-color:lightpink;
+}
+100%{
+    background-color: aquamarine;
+}
+} */

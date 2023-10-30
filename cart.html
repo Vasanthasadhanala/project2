@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart|Silver Gallery</title>
+    <link rel="icon" href="https://logodix.com/logo/1723258.jpg" style="border-radius:70px;">
+    <link rel="stylesheet" href="giva.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<style>
+    .example3 {
+     height: 50px;	
+     overflow: hidden;
+     position: relative;
+    }
+    .example3 h6 {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateY(100%);
+     -webkit-transform:translateY(100%);	
+     transform:translateY(100%);
+     /* Apply animation to this element */	
+     -moz-animation: example3 1s ease infinite;
+     -webkit-animation: example3 1s ease infinite;
+     animation: example3 3s ease infinite;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes example3 {
+     0%   { -moz-transform: translateY(100%); }
+     40%   { -moz-transform: translateY(0%); }
+     60%   { -moz-transform: translateY(0%); }
+     100% { -moz-transform: translateY(-100%); }
+    }
+    @-webkit-keyframes example3 {
+     0%   { -webkit-transform: translateY(100%); }
+     40%   { -webkit-transform: translateY(0%); }
+     60%   { -webkit-transform: translateY(0%); }
+     100% { -webkit-transform: translateY(-100%); }
+    }
+    @keyframes example3 {
+     0%   { 
+     -moz-transform: translateY(100%); /* Firefox bug fix */
+     -webkit-transform: translateY(100%); /* Firefox bug fix */
+     transform: translateY(100%); 		
+     }
+     40%   { 
+     -moz-transform: translateY(0%); /* Firefox bug fix */
+     -webkit-transform: translateY(0%); /* Firefox bug fix */
+     transform: translateY(0%); 		
+     }
+     60%   { 
+     -moz-transform: translateX(0%); /* Firefox bug fix */
+     -webkit-transform: translateX(0%); /* Firefox bug fix */
+     transform: translateY(0%); 		
+     }
+     100% { 
+     -moz-transform: translateY(-100%); /* Firefox bug fix */
+     -webkit-transform: translateY(-100%); /* Firefox bug fix */
+     transform: translateY(-100%); 
+     }
+    }
+    </style>
+    <body>
+        <div class=" fixed-top">
+            <div  class="example3 " style=" background-color: lightpink; padding: 0.5% 0.5%;">
+                <h6>Flat50%: OFF on making charges of Gold Jwellery <br/>Free Gift : Free gift worth 1499 on order over 2199 <br/> Buy 1 get 2nd at 25% OFF.code: COMBO25</h6>
+                </div>
+            
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+               <a href="./giva.html" style="text-decoration: none;"> <p class="giva">Silver Gallery </p></a>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="margin-left: 10%;">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                          ShopAll
+                        </a>               
+                            
+                              <ul class="dropdown-menu" style="width: 50vw;">
+                                <div class="d-flex flex-row">
+                                <div>
+                                <li><h5><a class="dropdown-item" href="#">Shop By category</a> <hr></h5></li>
+                                <li><a class="dropdown-item" href="./Earrings.html">Earings</a></li>
+                                <li><a class="dropdown-item" href="./pendents.html">Pendents</a></li>
+                                <li><a class="dropdown-item" href="./Ringsilver.html">Rings</a></li>
+                                <li><a class="dropdown-item" href="./pendents.html">Necklace&Pendents</a></li>
+                                <li><a class="dropdown-item" href="./braclets.html">Bracelets</a></li>
+                                <li><a class="dropdown-item" href="#">Anklets</a></li>
+                                <li><a class="dropdown-item" href="#">Jewellery Sets</a></li>
+                                <li><a class="dropdown-item" href="#">Personalised</a></li>
+                                <li><a class="dropdown-item" href="#">Chains</a></li>
+                                <li><a class="dropdown-item" href="#">Toe Rings</a></li>
+                                <li><a class="dropdown-item" href="#">Nose Pins &Rings</a></li>
+                                <li><a class="dropdown-item" href="#">All</a></li>
+                              </div>
+                              <div>
+                                <li><h5><a class="dropdown-item" href="#">Shop By Metal</a> <hr></h5></li>
+                                <li><a class="dropdown-item" href="#">14k Gold</a></li>
+                                <li><a class="dropdown-item">18k Gold</a></li>
+                                <li><a class="dropdown-item" href="#">925  Silver</a></li>
+                              </div>
+                              <div>
+                                <li><h5><a class="dropdown-item" href="#">Shop By Color</a> <hr></h5></li>
+                                <li><a class="dropdown-item" href="#">Gold Plated</a></li>
+                                <li><a class="dropdown-item">Rose Plated</a></li>
+                                <li><a class="dropdown-item" href="#">Silver Plated</a></li>
+                                <li><a class="dropdown-item" href="#">Oxidized Silver</a></li>
+                              </div>
+                              <div>
+                                <li><h5><a class="dropdown-item" href="#">Shop By Style</a> <hr></h5></li>
+                                <li><a class="dropdown-item" href="#">Everday Staples</a></li>
+                                <li><a class="dropdown-item">Office minimals</a></li>
+                                <li><a class="dropdown-item" href="#">Party Peices</a></li>
+                                <li><a class="dropdown-item" href="#">Wedding wear</a></li>
+                                <li><a class="dropdown-item" href="#">Mens</a></li>
+                              </div>
+                            </div>
+                              </ul>
+           
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./braclets.html"  style="color: black;" target="_self">Bracelets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Earrings.html" style="color: black;" target="_self">Earings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pendents.html" style="color: black;" target="_self">Pendents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Ringsilver.html" style="color: black;" target="_self">Rings</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                          Gold Jewellery
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"> Shop All</a></li>
+                          <li><a class="dropdown-item" href="./Earrings.html">Earings</a></li>
+                          <li><a class="dropdown-item">Pendents</a></li>
+                          <li><a class="dropdown-item" href="#">Rings</a></li>
+                          <li><a class="dropdown-item" href="#">Bracelets</a></li>
+                          <li><a class="dropdown-item" href="#">Personalised</a></li>
+                          <li><a class="dropdown-item" href="#">Chains</a></li>
+                          <li><a class="dropdown-item" href="#">Nose Pins</a></li>
+                          <li><a class="dropdown-item" href="#">Gifts of Gold</a></li>
+                          <li><a class="dropdown-item" href="#">Gold Jewellery under 10000</a></li>
+                          
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  style="color: black;" target="_self">Just Arrived</a>
+                    </li>
+                   <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                          More
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"> Track Order</a></li>
+                          <li><a class="dropdown-item" href="#">GIVA Gift store</a></li>
+                          <li><a class="dropdown-item">Store Locator </a></li>
+                          <li><a class="dropdown-item" href="#">Media Mentons</a></li>
+                          <li><a class="dropdown-item" href="#">Coporate Partnership</a></li>
+                          <li><a class="dropdown-item" href="#">Jwellery Care</a></li>
+                          <li><a class="dropdown-item" href="#">GIVA Cares</a></li>
+                          <li><a class="dropdown-item" href="#">Join Us</a></li>
+                          <li><a class="dropdown-item" href="#">GIVA Blogs</a></li>
+                          <li><a class="dropdown-item" href="#">Support & FAQ</a></li>
+                          
+                        </ul>
+                      </li>
+                  </ul>
+                </div>
+                <input type="text" class="papa" placeholder="search"/>
+                <a href="" style="color: black;"><i class="bi bi-search" style="font-size: 20px;"></i></a>
+                <a href="./login .html"> <i class="bi bi-person" style="color: black; font-size: 20px;"></i></a>
+                <a href="" data-toggle="modal" data-target="#exampleModal" style="color: black;"><i class="bi bi-heart" style="font-size: 20px;"> </i></a>
+                <a href="./cart.html" style="color: black;"> <i class="bi bi-minecart-loaded" style="font-size: 20px;"></i></a>  
+              </nav> 
+            </div>
+        <div class="your-cart" style="margin:10% 40% 5%;">
+            <h3>Your Cart</h3>
+            <p style="margin-bottom: 0px;">Your cart is currently empty</p>
+            <button class="btn btn-dark"><a href="./giva.html"  style="color: white; text-decoration: none;">CONTINUE SHOPPING <i class="bi bi-arrow-right" style="margin-right: 8px;"></i></a></button>
+        </div>
+        <footer>
+            <div>
+                <p class="footer-head">Know More about SILVER GALLERY</p>
+            </div>
+                <div class="container-part1">
+                    <p style="font-size: 80%; margin-left:2%;">Quick links</p><br>
+                    <p style="font-size: 80%;margin-left: 20%;">Newsletter</p>
+                    <p style="font-size: 80%; margin-left: 40%;">Contact Us</p>
+                </div>
+                    <div class="container-part1-1">
+                        <div style="margin-left: 5%;">
+                        <a>Support</a><br>
+                        <a>Store Locator</a><br>
+                        <a>Offers & Promotions</a><br>
+                        <a>International Shipping</a><br>
+                        <a>Careers</a><br>
+                        <a>Jwellery</a><br>
+                        <a>Blogs</a><br>
+                        <a>Reviews</a><br>
+                        <a>Privacy Policy</a><br>
+                        <a>Shipping & Returns</a><br>
+                        <a>International Shipping FAQs</a><br>
+                        <a>Terms of Service</a><br>
+                        </div>
+                        <div>
+                            <form >
+                                <input type="email" placeholder="Email Address" style="height: 40px; width: 60%;">
+                                <button style="height: 42px;width: 15%; margin-left: -5px; background-color:darkgrey;">Subscribe</button>
+                            </form>   
+                        </div>
+                        <div>
+                            <p style="margin-left: -120px;">BIS : HM/C - 6290031216<br>
+                                For any suggestions, queries or complaints <br>
+                                please contact us: <br>
+                                Indiejewel Fashions Private Limited <br>
+                                Third Floor, Magnum Vista, Raghuvanahalli, <br>
+                                 Bangalore 560062 <br>
+                                -  care@giva.co <br>
+                                -  7829558887 (10 AM to 6:30 PM) <br>
+                            </p>
+                            <button  class="footer-button"> 
+                                <span> <i class="bi bi-google-play" style="font-size: 25px; margin-left: -110px;"></i>
+                                    <p style="margin-top: -40px; margin-left: -33px; font-size:80% ;">Get it on</p>
+                                    <h5 style="margin-top: -20px; margin-left: 20%;">Google Play</h5>
+                                </span>
+                            </button><br><br>
+                            <button class="footer-button"> 
+                                <span> <i class="bi bi-apple" style="font-size: 25px; margin-left: -110px;"></i>
+                                    <p style="margin-top: -40px; margin-left: 9px; font-size: 70%;">Download it on the</p>
+                                    <h5 style="margin-top: -20px; margin-left: 20%;">Apple Store</h5>
+                                </span>
+                            </button><br>  
+                        </div>
+        
+                    </div>
+        </footer> 
+           
+         <!-- Modal -->
+ <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">My Wishlist</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>Love It? Add To My Wishlist</h1>
+        <p>My Wishlist allows you to keep track of all of your favorites and shopping activity whether you're on your computer, phone, or tablet.
+           You won't have to waste time searching all over again for that item you loved on your phone the other day - it's all here in one place!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark">Continue Shopping</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </body>
+        </html>
